@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("----INICIO PROGRAMA----");
+		Scanner sc = new Scanner(System.in);
+		int entradaA = sc.nextInt();
+		System.out.println("Entrada A---->"+entradaA);
+		int entradaB = sc.nextInt();
+		System.out.println("Entrada B---->"+entradaB);
+		dividir(entradaA, entradaB);
+		
+	}
+	
+	
+	public static void dividir (float a,float b) {	
+	float resultado = a/b;
+	System.out.println("El resultado de mi división es "+resultado);
+	}	
+	
+
+}
